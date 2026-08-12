@@ -3,6 +3,6 @@
       "target": {
         "namespace": "android_app",
         "package_name": "io.github.aliceylan2841_web.twa",
-        "sha256_cert_fingerprints": ["DC:04:AA:B6:76:47:91:F2:7F:67:3D:83:51:5A:E6:87:E0:F5:10:40:27:B5:03:EB:8D:CD:13:16:99:A2:2F:88"]
+        "sha256_cert_fingerprints": ["64:E2:4D:87:CA:B7:D3:B0:D7:31:E7:6C:DF:59:E2:46:B2:BF:3E:98:2D:02:8B:40:C8:F6:04:24:6E:F6:0E:92"]
       }
     }]
