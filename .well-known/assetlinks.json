@@ -8,11 +8,13 @@
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.acamay.matematik",
-      "sha256_cert_fingerprints": ["83:BE:3F:A3:48:83:40:29:CA:EF:BF:42:7D:2F:CC:F1:B6:42:E5:3A:3E:2D:D9:C6:0E:EE:67:33:80:FC:BE:85"]
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.aliceylan2841_web.twa",
+        "sha256_cert_fingerprints": ["D1:8C:4D:47:61:D5:A8:FE:B4:C0:76:11:FC:29:57:DB:24:AB:19:D5:C6:9F:6B:99:32:AA:B7:BD:B9:F2:78:38"]
+      }
     }
-  }
 ]
+
+
