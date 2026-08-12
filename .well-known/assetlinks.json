@@ -1,1 +1,8 @@
-
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.aliceylan2841_web.twa",
+        "sha256_cert_fingerprints": ["DC:04:AA:B6:76:47:91:F2:7F:67:3D:83:51:5A:E6:87:E0:F5:10:40:27:B5:03:EB:8D:CD:13:16:99:A2:2F:88"]
+      }
+    }]
