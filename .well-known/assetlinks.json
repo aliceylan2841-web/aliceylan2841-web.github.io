@@ -14,7 +14,15 @@
       "package_name": "com.acamay.matematik",
       "sha256_cert_fingerprints": ["B5:A9:BC:39:A5:31:57:3E:20:C9:42:CB:69:3C:32:ED:8A:EA:E1:95:E8:70:A5:6D:48:BC:C4:06:9E:41:31:8E"]
     }
-  }
-]
+  }, 
+{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.acamay.mesaiv2",
+        "sha256_cert_fingerprints": ["F6:C8:F0:C5:CC:9A:07:A9:B0:9D:DF:85:0E:23:91:D7:B1:EE:54:4E:29:EE:75:91:A1:4D:51:02:94:49:8F:3A"]
+      }
+    }]
+
 
 
