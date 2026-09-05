@@ -30,6 +30,13 @@
         "package_name": "com.acamay.personeltakip",
         "sha256_cert_fingerprints": ["A4:A2:89:78:11:7C:E0:F3:C8:87:2D:38:B3:ED:21:8A:12:93:8F:62:98:EC:2B:9D:70:AD:63:96:94:17:2C:B9"]
       }
+    }, 
+{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.onrender.beraberce_huzura_do_ru.twa",
+        "sha256_cert_fingerprints": ["4B:A2:28:4D:D0:99:1A:DA:7E:9B:74:09:6B:80:03:BB:97:47:52:9A:D5:E7:BB:7B:05:3A:D2:1F:8B:C8:7A:3B"]
+      }
     }]
-
 
