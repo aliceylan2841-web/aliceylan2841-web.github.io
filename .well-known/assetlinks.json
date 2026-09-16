@@ -19,8 +19,8 @@
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
-        "package_name": "com.acamay.mesaiv2",
-        "sha256_cert_fingerprints": ["F6:C8:F0:C5:CC:9A:07:A9:B0:9D:DF:85:0E:23:91:D7:B1:EE:54:4E:29:EE:75:91:A1:4D:51:02:94:49:8F:3A"]
+        "package_name": "io.github.aliceylan2841_web.twa",
+        "sha256_cert_fingerprints": ["32:BE:5B:82:73:A6:69:38:FF:CD:ED:ED:FC:55:59:AB:FF:CA:D3:CD:E8:B6:A5:F4:16:E1:9E:31:D1:20:80:F3"]
       }
     }, 
   {
