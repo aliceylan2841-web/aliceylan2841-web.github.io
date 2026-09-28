@@ -7,7 +7,7 @@
       "sha256_cert_fingerprints": ["64:E2:4D:87:CA:B7:D3:B0:D7:31:E7:6C:DF:59:E2:46:B2:BF:3E:98:2D:02:8B:40:C8:F6:04:24:6E:F6:0E:92"]
     }
   },
- {
+  {
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
@@ -15,6 +15,7 @@
         "sha256_cert_fingerprints": ["25:CD:08:22:9A:15:AD:08:0C:DB:76:5D:33:7D:DA:66:FB:1A:89:B9:1F:83:14:EA:67:FC:70:63:D6:39:AA:EA"]
       }
     }, 
+ 
 {
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
