@@ -39,5 +39,14 @@
         "package_name": "com.onrender.beraberce_huzura_do_ru.twa",
         "sha256_cert_fingerprints": ["4B:A2:28:4D:D0:99:1A:DA:7E:9B:74:09:6B:80:03:BB:97:47:52:9A:D5:E7:BB:7B:05:3A:D2:1F:8B:C8:7A:3B"]
       }
-    }]
+    }, 
+  {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.acamay.duzenli_ders",
+        "sha256_cert_fingerprints": ["FF:78:3D:3C:CB:D3:8F:5E:C4:EA:96:5A:76:6B:55:EA:A2:18:AA:0D:F0:D6:51:B2:BB:A0:51:C1:1D:7B:F9:AE"]
+      }
+    }
+]
 
