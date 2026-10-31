@@ -1,20 +1,141 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Acamay Zeka Akademisi</title>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7424527817059865" crossorigin="anonymous"></script>
-<meta http-equiv="refresh" content="2;url=/Matematik_oyun/">
-<style>
-  body{font-family:sans-serif;background:#6C5CE7;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;text-align:center;}
-  a{color:#fff;font-weight:bold;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acamay Zeka Akademisi | Uygulama Vitrini</title>
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7424527817059865" crossorigin="anonymous"></script>
+    <!-- İkonlar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-color: #6C5CE7;
+            --accent-hover: #5a4bcf;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { margin: 0 0 10px 0; font-size: 2.2rem; }
+        p { color: var(--text-muted); margin: 0; }
+        .search-container { width: 100%; max-width: 500px; margin-bottom: 40px; }
+        .search-wrapper { position: relative; }
+        .search-wrapper i { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: var(--text-muted); }
+        .search-box {
+            width: 100%; padding: 14px 20px 14px 45px; background-color: var(--card-bg);
+            border: 1px solid #334155; border-radius: 12px; color: var(--text-color);
+            font-size: 1rem; outline: none; box-sizing: border-box; transition: border-color 0.3s;
+        }
+        .search-box:focus { border-color: var(--accent-color); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; width: 100%; max-width: 1000px; }
+        .card {
+            background-color: var(--card-bg); border-radius: 14px; padding: 25px;
+            text-decoration: none; color: var(--text-color); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; border: 1px solid #334155;
+            display: flex; flex-direction: column; justify-content: space-between;
+        }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3); border-color: var(--accent-color); }
+        .card-header { display: flex; align-items: center; margin-bottom: 15px; }
+        .card-icon { font-size: 2rem; color: var(--accent-color); margin-right: 15px; }
+        .card-title { font-size: 1.2rem; font-weight: bold; margin: 0; }
+        .card-desc { color: var(--text-muted); font-size: 0.9rem; margin: 0 0 20px 0; line-height: 1.4; }
+        .card-btn {
+            align-self: flex-start; background-color: var(--accent-color); color: white;
+            padding: 8px 16px; border-radius: 8px; font-size: 0.85rem; font-weight: 600;
+        }
+    </style>
 </head>
 <body>
-  <div>
-    <h1>Acamay Zeka Akademisi 🚀</h1>
-    <p>Yönlendiriliyor... yönlendirilmezseniz <a href="/Matematik_oyun/">buraya tıklayın</a>.</p>
-  </div>
+
+    <header>
+        <h1>Acamay Zeka Akademisi 🚀</h1>
+        <p>Geliştirilen uygulama ve araçlar vitrini</p>
+    </header>
+
+    <div class="search-container">
+        <div class="search-wrapper">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchInput" class="search-box" placeholder="Uygulama ara...">
+        </div>
+    </div>
+
+    <div class="grid" id="appGrid">
+        
+        <a href="/Matematik_oyun/" class="card" data-name="matematik oyun egitim seruveni">
+            <div>
+                <div class="card-header">
+                    <div class="card-icon"><i class="fa-solid fa-calculator"></i></div>
+                    <h3 class="card-title">Matematik Oyunu</h3>
+                </div>
+                <p class="card-desc">Eğlenceli ve öğretici matematik becerileri geliştirme oyunu.</p>
+            </div>
+            <span class="card-btn">Uygulamaya Git</span>
+        </a>
+
+        <a href="/mesai_takip/" class="card" data-name="mesai takip personel vardiya">
+            <div>
+                <div class="card-header">
+                    <div class="card-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3 class="card-title">Mesai Takip</h3>
+                </div>
+                <p class="card-desc">Personel vardiya ve mesai takip yönetimi.</p>
+            </div>
+            <span class="card-btn">Uygulamaya Git</span>
+        </a>
+
+        <a href="/Beraberce-Huzura-Do-ru/" class="card" data-name="beraberce huzura dogru">
+            <div>
+                <div class="card-header">
+                    <div class="card-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <h3 class="card-title">Beraberce Huzura Doğru</h3>
+                </div>
+                <p class="card-desc">Web uygulaması ve platform arayüzü.</p>
+            </div>
+            <span class="card-btn">Uygulamaya Git</span>
+        </a>
+
+        <a href="/Personel_Takip/" class="card" data-name="personel takip">
+            <div>
+                <div class="card-header">
+                    <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3 class="card-title">Personel Takip</h3>
+                </div>
+                <p class="card-desc">Çalışan takip ve kayıt modülü.</p>
+            </div>
+            <span class="card-btn">Uygulamaya Git</span>
+        </a>
+
+    </div>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const cards = document.getElementsByClassName('card');
+
+        searchInput.addEventListener('keyup', function(e) {
+            const term = e.target.value.toLowerCase();
+            Array.from(cards).forEach(card => {
+                const name = card.getAttribute('data-name');
+                const title = card.querySelector('.card-title').textContent.toLowerCase();
+                if(name.includes(term) || title.includes(term)) {
+                    card.style.display = "flex";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        });
+    </script>
 </body>
 </html>
