@@ -40,7 +40,7 @@
             font-size: 1rem; outline: none; box-sizing: border-box; transition: border-color 0.3s;
         }
         .search-box:focus { border-color: var(--accent-color); }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; width: 100%; max-width: 1000px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; width: 100%; max-width: 1100px; }
         .card {
             background-color: var(--card-bg); border-radius: 14px; padding: 25px;
             text-decoration: none; color: var(--text-color); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -62,7 +62,7 @@
 
     <header>
         <h1>Acamay Zeka Akademisi 🚀</h1>
-        <p>Geliştirilen uygulama ve araçlar vitrini</p>
+        <p>Geliştirilen tüm uygulama ve araçlar vitrini</p>
     </header>
 
     <div class="search-container">
@@ -74,6 +74,7 @@
 
     <div class="grid" id="appGrid">
         
+        <!-- Matematik Oyunu -->
         <a href="/Matematik_oyun/" class="card" data-name="matematik oyun egitim seruveni">
             <div>
                 <div class="card-header">
@@ -85,6 +86,7 @@
             <span class="card-btn">Uygulamaya Git</span>
         </a>
 
+        <!-- Mesai Takip -->
         <a href="/mesai_takip/" class="card" data-name="mesai takip personel vardiya">
             <div>
                 <div class="card-header">
@@ -96,6 +98,19 @@
             <span class="card-btn">Uygulamaya Git</span>
         </a>
 
+        <!-- Mesai Program v2 -->
+        <a href="/Mesai-program-v2/" class="card" data-name="mesai program v2 vardiya">
+            <div>
+                <div class="card-header">
+                    <div class="card-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                    <h3 class="card-title">Mesai Program v2</h3>
+                </div>
+                <p class="card-desc">Gelişmiş mesai ve çalışma takvimi programı.</p>
+            </div>
+            <span class="card-btn">Uygulamaya Git</span>
+        </a>
+
+        <!-- Beraberce Huzura Doğru -->
         <a href="/Beraberce-Huzura-Do-ru/" class="card" data-name="beraberce huzura dogru">
             <div>
                 <div class="card-header">
@@ -107,6 +122,7 @@
             <span class="card-btn">Uygulamaya Git</span>
         </a>
 
+        <!-- Personel Takip -->
         <a href="/Personel_Takip/" class="card" data-name="personel takip">
             <div>
                 <div class="card-header">
@@ -114,6 +130,54 @@
                     <h3 class="card-title">Personel Takip</h3>
                 </div>
                 <p class="card-desc">Çalışan takip ve kayıt modülü.</p>
+            </div>
+            <span class="card-btn">Uygulamaya Git</span>
+        </a>
+
+        <!-- Ara Arj -->
+        <a href="/Ara-arj/" class="card" data-name="ara arj">
+            <div>
+                <div class="card-header">
+                    <div class="card-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3 class="card-title">Ara Arj</h3>
+                </div>
+                <p class="card-desc">Şarj ve istasyon takip aracı.</p>
+            </div>
+            <span class="card-btn">Uygulamaya Git</span>
+        </a>
+
+        <!-- Makara Hesap -->
+        <a href="/Makara_hesap/" class="card" data-name="makara hesap">
+            <div>
+                <div class="card-header">
+                    <div class="card-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h3 class="card-title">Makara Hesap</h3>
+                </div>
+                <p class="card-desc">Endüstriyel hesaplama ve makara aracı.</p>
+            </div>
+            <span class="card-btn">Uygulamaya Git</span>
+        </a>
+
+        <!-- Düzenli Ders Alma -->
+        <a href="/D-zenli-Ders-al-ma/" class="card" data-name="duzenli ders alma egitim">
+            <div>
+                <div class="card-header">
+                    <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
+                    <h3 class="card-title">Düzenli Ders Alma</h3>
+                </div>
+                <p class="card-desc">Eğitim ve ders çalışma takip modülü.</p>
+            </div>
+            <span class="card-btn">Uygulamaya Git</span>
+        </a>
+
+        <!-- Acamay 28 -->
+        <a href="/Acamay-28/" class="card" data-name="acamay 28">
+            <div>
+                <div class="card-header">
+                    <div class="card-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h3 class="card-title">Acamay 28</h3>
+                </div>
+                <p class="card-desc">Özel proje ve uygulama alanı.</p>
             </div>
             <span class="card-btn">Uygulamaya Git</span>
         </a>
