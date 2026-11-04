@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="tr">
+<meta name="description" content="Acamay Tech Studio: Android uygulama indirme merkezi.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acamay Tech Studio - Uygulama İndirme Merkezi</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-color: #6366f1;
+            --accent-hover: #4f46e5;
+            --text-main: #f8fafc;
+            --text-sub: #94a3b8;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+        .hero-logo { display: block; width: 100%; max-width: 480px; height: auto; margin: 0 auto 8px; border-radius: 16px; }
+        .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+        h1 {
+            text-align: center;
+            color: var(--text-main);
+            margin-bottom: 10px;
+        }
+        p.subtitle {
+            text-align: center;
+            color: var(--text-sub);
+            margin-bottom: 30px;
+        }
+        .app-card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s;
+        }
+        .app-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .app-left { display: flex; align-items: center; gap: 14px; min-width: 0; }
+        .app-logo {
+            width: 64px; height: 64px; flex-shrink: 0;
+            border-radius: 14px; object-fit: cover;
+            background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+        }
+        .app-logo-placeholder {
+            width: 64px; height: 64px; flex-shrink: 0;
+            display: grid; place-items: center;
+            border-radius: 14px; font-size: 30px;
+            background: linear-gradient(145deg, #0f766e, #14b8a6);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+        }
+        .app-info h3 {
+            margin: 0 0 5px 0;
+            font-size: 1.1rem;
+        }
+        .app-info p {
+            margin: 0;
+            font-size: 0.85rem;
+            color: var(--text-sub);
+        }
+        .btn-download {
+            background-color: var(--accent-color);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background-color 0.2s;
+            white-space: nowrap;
+        }
+        .btn-download:hover {
+            background-color: var(--accent-hover);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img class="hero-logo" src="logos/header.jpg" alt="Acamay Tech Studio - Digital Solutions for Future">
+        <h1 class="sr-only">Acamay Tech Studio</h1>
+        <p class="subtitle">Geliştirilen tüm uygulama ve sistemlerin indirme vitrini</p>
+
+        <!-- 1. Matematik Serüveni -->
+        <div class="app-card">
+            <div class="app-left">
+                <img class="app-logo" src="logos/matematik.png" alt="Matematik Serüveni logosu" loading="lazy">
+                <div class="app-info">
+                    <h3>Matematik Serüveni</h3>
+                    <p>Eğlenceli ve öğretici matematik geliştirme oyunu.</p>
+                </div>
+            </div>
+            <a href="MATEMAT%C4%B0K_SER%C3%9CVEN%C4%B0.apk" download class="btn-download">APK İndir</a>
+        </div>
+
+        <!-- 2. Ahşap Makara Hesapla -->
+        <div class="app-card">
+            <div class="app-left">
+                <img class="app-logo" src="logos/makara.png" alt="Ahşap Makara Hesapla logosu" loading="lazy">
+                <div class="app-info">
+                    <h3>Ahşap Makara Hesapla</h3>
+                    <p>Üretim ve makara hesaplama araçları.</p>
+                </div>
+            </div>
+            <a href="Makara_Hesap.apk" download class="btn-download">APK İndir</a>
+        </div>
+
+        <!-- 3. Mesai & İzin Takip Pro -->
+        <div class="app-card">
+            <div class="app-left">
+                <img class="app-logo" src="logos/mesai.png" alt="Mesai & İzin Takip Pro logosu" loading="lazy">
+                <div class="app-info">
+                    <h3>Mesai & İzin Takip Pro</h3>
+                    <p>Vardiya, mesai ve izin takip uygulaması.</p>
+                </div>
+            </div>
+            <a href="Mesai_%C4%B0zin_Takip_Pro.apk" download class="btn-download">APK İndir</a>
+        </div>
+
+        <!-- 4. Personel Takip -->
+        <div class="app-card">
+            <div class="app-left">
+                <img class="app-logo" src="logos/personel.png" alt="Personel Takip logosu" loading="lazy">
+                <div class="app-info">
+                    <h3>Personel Takip</h3>
+                    <p>Personel devam ve durum kontrol sistemi.</p>
+                </div>
+            </div>
+            <a href="Personel_Takip.apk" download class="btn-download">APK İndir</a>
+        </div>
+
+        <!-- 5. Düzenli Ders Çalışma -->
+        <div class="app-card">
+            <div class="app-left">
+                <img class="app-logo" src="logos/ders.png" alt="Düzenli Ders Çalışma logosu" loading="lazy">
+                <div class="app-info">
+                    <h3>Düzenli Ders Çalışma</h3>
+                    <p>Planlı ve programlı ders çalışma takibi.</p>
+                </div>
+            </div>
+            <a href="Takip.apk" download class="btn-download">APK İndir</a>
+        </div>
+
+        <!-- 6. Beraberce Huzura Doğru -->
+        <div class="app-card">
+            <div class="app-left">
+                <img class="app-logo" src="logos/huzura.png" alt="Beraberce Huzura Doğru logosu" loading="lazy">
+                <div class="app-info">
+                    <h3>Beraberce Huzura Doğru</h3>
+                    <p>Cemaatle ezan ve vakit takip programı.</p>
+                </div>
+            </div>
+            <a href="Beraberce_Huzura_Do%C4%9Fru.apk" download class="btn-download">APK İndir</a>
+        </div>
+
+        <!-- 7. Aile Bütçesi -->
+        <div class="app-card">
+            <div class="app-left">
+                <div class="app-logo-placeholder" role="img" aria-label="Aile Bütçesi logosu">₺</div>
+                <div class="app-info">
+                    <h3>Aile Bütçesi</h3>
+                    <p>Aile gelir, gider ve bütçe takibi uygulaması.</p>
+                </div>
+            </div>
+            <a href="Aile%20B%C3%BCt%C3%A7esi.apk" download class="btn-download">APK İndir</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
