@@ -48,5 +48,13 @@
         "sha256_cert_fingerprints": ["FF:78:3D:3C:CB:D3:8F:5E:C4:EA:96:5A:76:6B:55:EA:A2:18:AA:0D:F0:D6:51:B2:BB:A0:51:C1:1D:7B:F9:AE"]
       }
     }
+{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.acamay.ailebutcesi",
+        "sha256_cert_fingerprints": ["6B:3B:7C:1C:C1:D3:77:70:F1:4F:57:78:70:11:89:4F:5D:D6:08:73:C9:E2:93:17:F0:68:B1:29:AE:38:84:22"]
+      }
+    }
 ]
 
