@@ -58,5 +58,17 @@
         "A4:A2:89:78:11:7C:E0:F3:C8:87:2D:38:B3:ED:21:8A:12:93:8F:62:98:EC:2B:9D:70:AD:63:96:94:17:2C:B9"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.acamay.duzenli_ders",
+      "sha256_cert_fingerprints": [
+        "FF:78:3D:3C:CB:D3:8F:5E:C4:EA:96:5A:76:6B:55:EA:A2:18:AA:0D:F0:D6:51:B2:BB:A0:51:C1:1D:7B:F9:AE"
+      ]
+    }
   }
 ]
