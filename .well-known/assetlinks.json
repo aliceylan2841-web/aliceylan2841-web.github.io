@@ -32,11 +32,12 @@
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.acamay.personeltakip",
-      "sha256_cert_fingerprints": ["A4:A2:89:78:11:7C:E0:F3:C8:87:2D:38:B3:ED:21:8A:12:93:8F:62:98:EC:2B:9D:70:AD:63:96:94:17:2C:B9"]
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.acamay.ailebutcesi",
+        "sha256_cert_fingerprints": ["93:A6:0C:7C:CE:35:12:1E:D4:5C:ED:4D:F9:19:71:0C:74:EF:74:FE:06:E4:0C:08:03:D0:6F:50:2D:08:89:0E"]
+      }
     }
-  }
+
 ]
