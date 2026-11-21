@@ -70,5 +70,13 @@
         "FF:78:3D:3C:CB:D3:8F:5E:C4:EA:96:5A:76:6B:55:EA:A2:18:AA:0D:F0:D6:51:B2:BB:A0:51:C1:1D:7B:F9:AE"
       ]
     }
-  }
+  }, 
+{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.aliceylan2841_web.twa",
+        "sha256_cert_fingerprints": ["21:74:DF:5C:BB:BE:DB:F4:E7:DF:22:81:F7:E9:7D:17:43:7F:9B:6C:20:30:74:65:A2:B4:D8:43:1D:7E:EC:02"]
+      }
+    }
 ]
